@@ -1,0 +1,3 @@
+- falta incluir o carrosel (vou fazer ele na parte onde tem somente o relogio, preciso criar outros banners
+
+- na parte nosso time preciso alterar a forma como é exibido, vou deixar a foto um pouco maior com o nome icone das redes sociais (um mini card também)

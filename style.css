@@ -1,0 +1,198 @@
+
+.about-us-text{
+    margin: 0 0 0 150px;
+    line-height: 3;
+}
+
+.about-us-long-text{
+    margin: 0 100px 0 0;
+}
+
+.about-us-small-text{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.camera-body{
+    position: relative;
+    top: -100px;
+}
+
+.card{
+    margin-left: 20%;
+    border: none;
+    border-radius: 0;
+    width: 378px;
+    height: 378px;
+}
+
+.card-area{
+    margin: 150px 50px;
+}
+
+.card-background-purple{
+    background: rgba(0, 9, 234, 0.2);
+}
+
+.card-background-purple:hover{
+    background: rgba(0, 9, 234, 0.3);
+    cursor: pointer;
+}
+
+
+.card-background-gray{
+    background: rgba(30, 30, 30, 0.1);
+}
+
+.card-background-gray:hover{
+    background: rgba(30, 30, 30, 0.2);
+    cursor: pointer;
+}
+
+.card-img-top{
+    position: relative;
+    bottom: 100px;
+}
+
+#footer{
+    background: rgba(0, 0, 0, 0.62);
+    color: white;
+
+}
+
+#footer p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #dbdbdb;
+}
+
+#footer h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footer-contato{
+    margin: 90px 0 70px 0;
+    padding-left: 50px;
+}
+
+.footer-sobre{
+    margin: 90px 0 0 0;
+}
+
+.footer-sobre a{
+    text-decoration: none;
+}
+
+.footer-social img{
+    margin: 30px 15px 0 0 ;
+    cursor: pointer;
+}
+
+.footer-techplay{
+    margin: 70px 70px 40px 90px;
+}
+
+.footer-techplay h1{
+    font-size: 62px;
+    line-height: 2;
+
+}
+
+
+.lower-area{
+    margin-top: 100px;
+}
+
+.main-msg{
+    margin-left: 250px;
+    margin-top: 150px;
+    font-size: 80px;
+    font-weight: bold;
+    width: 1000px;
+    height: 200px;
+}
+
+@media (max-width: 990px)
+/*vou começar mudar apartir desse colapso*/
+{
+    body{
+        background-color: red;
+    }
+}
+
+.monitor-body{
+    position: relative;
+    top: -30px;
+}
+
+.mouse-body{
+    position: relative;
+    top: 40px;
+}
+
+#mouse-img{
+    left: -50px;
+    width: 500px;
+    height: 250px;
+}
+
+
+.nav-link{
+    color: #EBFFFD;
+
+    font-size: 14px;
+    margin: 5px 30px;
+
+}
+
+.our-products-msg{
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.our-products-small-msg{
+    margin: 40px 0 90px 0;
+    font-size: 16px;
+}
+
+.pink{
+    color: #9B51E0;
+}
+
+.playstation-body{
+    position: relative;
+    top: 28px;
+}
+
+.products{
+    margin-top: 110px;
+}
+
+.robot-body{
+    position: relative;
+    top: -50px;
+}
+
+.small-msg{
+    font-size: 20px;
+    margin-left: 250px;
+    width: 550px;
+
+}
+
+.start-image{
+    width: 579px;
+    height: 626px;
+}
+
+
+.start-page{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(94, 127, 177, 0) 100%);
+}
