@@ -18,12 +18,9 @@ body{
 
 }
 
-#about-us .long-text{
-
-}
-
-#about-us .text{
-    line-height: 3;
+#about-us{
+    width: 80%;
+    margin: auto;
 }
 
 #footer{
@@ -267,14 +264,6 @@ body{
     position: absolute;
     width: 100%;
 }
-#about-us .testesssss{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    margin: 150px auto;
-    width: 90%;
-}
 
 
 
@@ -308,16 +297,6 @@ body{
         width: 100%;
         margin: auto;
         text-align: center;
-    }
-
-    #about-us .testesssss{
-        box-sizing: border-box;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 150px auto;
-        width: 90%;
     }
 
     #about-us .small-text{
