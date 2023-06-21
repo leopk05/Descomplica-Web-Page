@@ -206,10 +206,10 @@ body{
 #our-team .card{
     align-items: center;
     border: none;
-    height: 420px;
+    height: auto;
     text-align: center;
     margin: 0 auto 50px auto;
-    width: 60%;
+    width: 90%;
 }
 
 #our-team .card-img-top{
@@ -279,6 +279,18 @@ body{
 
 
 
+@media (max-width: 960px)
+{
+    #our-products .card{
+        margin: 60px auto;
+        border: none;
+        border-radius: 0;
+        width: 80%;
+        height: auto;
+    }
+
+
+}
 
 
 
@@ -288,7 +300,8 @@ body{
 
 
 
-@media (max-width: 990px)
+
+@media (max-width: 640px)
 {
 
 
@@ -321,9 +334,10 @@ body{
     }
 
     #about-us .small-text{
-        width: 100%;
+        font-size: 1rem;
         margin: auto;
         text-align: center;
+        width: 100%;
     }
 
     #footer .contato{
@@ -363,6 +377,15 @@ body{
         height: 20%;
         margin: auto;
         width: 90%;
+    }
+
+    #our-team .card{
+        align-items: center;
+        border: none;
+        height: auto;
+        text-align: center;
+        margin: 0 auto 50px auto;
+        width: 100%;
     }
 
 }
