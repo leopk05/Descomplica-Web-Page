@@ -1,367 +1,355 @@
 body{
-    font-family: 'Work Sans', sans-serif;
-}
-
-.msg{
-    font-size: 46px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.pink{
-    color: #9B51E0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Work Sans;
 }
 
 .small-text{
-    font-size: 25px;
-    font-weight: bold;
-
+    font-size: 1.5vw;
 }
 
-#about-us{
-    width: 80%;
-    margin: auto;
-}
-
-#footer{
-    background: rgba(0, 0, 0, 0.62);
-    color: white;
-
-}
-
-#footer p{
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 300;
-    color: #dbdbdb;
-}
-
-#footer h2{
-    font-size: 26px;
+.big-title{
+    font-size: 4.4vw;
     font-weight: bold;
 }
 
-#footer .contato{
-    margin: 90px 0 70px 0;
-    padding-left: 50px;
+
+span{
+    color: #9B51E0;
 }
 
-#footer .sobre{
-    margin: 90px 0 0 0;
-}
 
-#footer .sobre a{
-    text-decoration: none;
-}
-
-#footer .social img{
-    margin: 30px 15px 0 0 ;
-    cursor: pointer;
-}
-
-#footer .techplay{
-    margin: 70px 70px 40px 90px;
-}
-
-#footer .techplay h1{
-    font-size: 62px;
-    line-height: 2;
-
-}
 
 #home{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(94, 127, 177, 0) 100%);
 }
 
-#home .main-msg{
-    margin-left: 250px;
-    margin-top: 150px;
-    font-size: 80px;
-    font-weight: bold;
-    width: 1000px;
-    height: 200px;
-}
-
-#home .nav-link{
-    color: #EBFFFD;
-
-    font-size: 14px;
-    margin: 5px 30px;
-
-}
-
-#home .small-msg{
+#home ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
     font-size: 20px;
-    margin-left: 250px;
-    width: 550px;
 }
 
-#home .start-image{
-    width: 579px;
-    height: 626px;
+#home li{
+    margin: 1vw 2vw 3vw 1vw;
 }
 
-
-
-#our-products .camera-body{
-    position: relative;
-    top: -100px;
+#home a{
+    color: white;
+    text-decoration: none;
 }
 
-#our-products .card{
-    margin-left: 20%;
-    border: none;
-    border-radius: 0;
-    width: 378px;
-    height: 378px;
+#home a:hover{
+    color: #c0b6b6;
 }
 
-#our-products .card-area{
-    margin: 150px 50px;
+#home section{
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
 }
 
-#our-products .card-background-purple{
-    background: rgba(0, 9, 234, 0.2);
+#home .left h2{
+    width: 100%;
+    color: #1E1E1E;
+    margin: 5vw auto;
+    padding: 2vw;
+    text-align: center;
 }
 
-#our-products .card-background-purple:hover{
-    background: rgba(0, 9, 234, 0.3);
-    cursor: pointer;
-}
-
-#our-products .carousel{
+#home .left p{
     width: 90%;
+    margin: 3vw auto;
+    text-align: center;
+}
+
+#home div img{
+    max-width: 50vw;
+    height: auto;
+    width: auto\9; /* ie8 */
+    flex-grow: 2;
+}
+
+
+#our-products .big-title,#our-products .small-text{
+    text-align: center;
+}
+
+
+#our-products .banner{
+    max-width: 95vw;
     margin: auto;
 }
 
-
-#our-products .card-background-gray{
-    background: rgba(30, 30, 30, 0.1);
+#our-products .banner-area{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
-#our-products .card-background-gray:hover{
-    background: rgba(30, 30, 30, 0.2);
-    cursor: pointer;
-}
-
-#our-products .card-img-top{
-    position: relative;
-    bottom: 100px;
-}
-
-#our-products .lower-area{
-    margin-top: 100px;
-}
-
-#our-products .monitor-body{
-    position: relative;
-    top: -30px;
-}
-
-#our-products .mouse-body{
-    position: relative;
-    top: 40px;
-}
-
-#our-products #mouse-img{
-    left: -50px;
-    width: 500px;
-    height: 250px;
-}
-
-#our-products .msg{
-    font-size: 46px;
-    font-weight: bold;
-}
-
-#our-products .playstation-body{
-    position: relative;
-    top: 28px;
-}
 
 #our-products .products{
-    margin-top: 110px;
-}
-
-#our-products .robot-body{
-    position: relative;
-    top: -50px;
-}
-
-#our-products .small-msg{
-    margin: 40px 0 90px 0;
-    font-size: 16px;
-}
-
-
-#our-team .big-text{
-    padding: 70px;
-    text-align: center;
-}
-
-
-#our-team .card{
-    align-items: center;
-    border: none;
-    height: 420px;
-    text-align: center;
-    margin: 0 auto 50px auto;
-    width: 60%;
-}
-
-#our-team .card-img-top{
-    width: 140px;
-    height: 140px;
-    border: 3px solid #9B51E0;
-    border-radius: 100%;
-}
-
-#our-team .card-img-top:hover{
-    cursor: pointer;
-}
-
-#our-team .card-title{
-    font-weight: bold;
-}
-
-#our-team .card-title:hover{
-    color: #9B51E0;
-    cursor: pointer;
-}
-
-#our-team .fa-brands{
-    margin: 0 5px;
-}
-
-#our-team .fa-brands:hover{
-    color: #9B51E0;
-    cursor: pointer;
-}
-
-#our-team .long-msg{
-    font-size: 16px;
-    line-height: 2;
-    margin: 0;
-    text-align: center;
-}
-
-#our-team .purple-area{
-    background: rgba(0, 9, 234, 0.2);
-    height: 20%;
-    margin: 40px auto;
-    width: 50%;
-}
-
-#our-team .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2vw;
+    column-gap: 2vw;
     width: 90%;
-    margin: auto;
+    margin: auto 5%;
 }
 
-#our-team .social-img{
-    bottom: 0;
-    left: 0;
+#our-products .product{
+    background: rgba(0, 9, 234, 0.20);
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+#our-products .product:hover{
+    background: rgba(65, 69, 162, 0.2);
+    cursor: pointer;
+
+}
+
+#our-products .product img{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 12vw;
+}
+
+
+#our-products .two{
+    background: rgba(30, 30, 30, 0.10);
+}
+
+#our-products .five{
+    background: rgba(30, 30, 30, 0.10);
+}
+
+
+#about-us article{
+    display: flex;
+    margin: 4vw;
+    flex-direction: row-reverse;
+}
+
+#about-us article .left{
+    width: 60vw;
     margin: 0 auto;
-    position: absolute;
+}
+
+#about-us p{
+    text-align: left;
+    line-height: 2.4vw;
+}
+
+#about-us img{
+    width: 35vw;
+}
+
+#about-us h1{
+    margin: 0 auto;
+}
+
+#our-team .purple{
+    width: 90%;
+    background: rgba(0, 9, 234, 0.20);
+    padding: 2vw;
+    margin: 2vw auto;
+}
+
+#our-team h2{
+    text-align: center;
+}
+
+#team-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    column-gap: 1vw;
+}
+
+#team-cards .card img{
+    margin: 0 auto;
+}
+
+#team-cards .card{
+    padding: 1vw;
+    border: 1px solid #9B51E0;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: auto 1fr auto auto;
+}
+
+.card h5{
+    margin: 1vw auto;
+    font-size: 25px;
+}
+
+.card i{
+    margin: auto 0.5vw;
+}
+
+.card i:hover{
+    color: #9B51E0;
+    cursor: pointer;
+}
+
+#contact{
+    margin: 4vw auto;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1vw auto 0 auto;
+}
+
+#contact .field-input{
+    margin: auto;
+    width: 75vw;
+}
+
+#contact button{
+    background-color: #9B51E0;
+    color: white;
+    padding: 1vw 2vw;
+    font-size: 2rem;
+    margin: 1vw auto;
+    border-radius: 6px;
+    border: none;
+}
+
+#contact button:hover{
+    cursor: pointer;
+    background-color: #7a4ba9;
+}
+
+#contact .field-input input{
+    height: 20px;
+}
+
+#contact .field-input input,textarea{
     width: 100%;
 }
 
+#footer{
+    background: rgba(0, 0, 0, 0.62);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    color: white;
+}
 
+#footer p{
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 2;
+}
 
+.right a{
+    text-decoration: none;
+    color: white;
+}
 
+.right a:hover,.left i:hover{
+    color: #b897de;
+    cursor: pointer;
+}
 
+#footer .big-title, #footer .small-text{
+    margin: 0;
+}
 
-
-
-
-
-
-
-
-@media (max-width: 990px)
-{
-
-
-    #about-us .about-img{
-        max-width: 300px;
-        margin-right: 15px;
-        float: right;
-    }
-
-    #about-us .text{
-        margin: auto auto auto 90px;
-        line-height: 1.5;
-        float: left;
-    }
-
-    #about-us .long-text{
-        width: 100%;
-        margin: auto;
-        text-align: center;
-    }
-
-    #about-us .small-text{
-        width: 100%;
-        margin: auto;
-        text-align: center;
-    }
-
-    #footer .contato{
-        margin: 20px auto;
-        padding-left: 0;
-    }
-
-
-    #footer .techplay{
-        margin: auto;
-        text-align: center;
-    }
-
-    #footer .sobre{
-        margin: 20px auto;
-    }
-
-    #our-products .card-area{
-        margin: auto;
-    }
-
-    #our-products .card{
-        margin: 60px auto;
-        border: none;
-        border-radius: 0;
-        width: 378px;
-        height: 378px;
-    }
-
-    #our-team .big-text{
-        padding: 20px;
-        text-align: center;
-    }
-
-    #our-team .purple-area{
-        background: rgba(0, 9, 234, 0.2);
-        height: 20%;
-        margin: auto;
-        width: 90%;
-    }
-
+#footer .center,#footer .left,#footer .right{
+    margin: 1vw 2vw 3vw 2vw;
 }
 
 
 
 
 
+@media (max-width: 700px) {
+    #home .left h2{
+        margin: 0 auto 0.5vw auto;
+    }
+
+    h2{
+        font-size: 7vw;
+    }
+
+    .big-title{
+        font-size: 6vw;
+    }
+
+    .small-text{
+        font-size: 4vw;
+    }
+
+    #our-products .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    #our-products .three{
+        background: rgba(30, 30, 30, 0.10);
+
+    }
+
+    #our-products .six{
+        background: rgba(30, 30, 30, 0.10);
+
+    }
+
+    #our-products .five{
+        background: rgba(0, 9, 234, 0.20);
+    }
+
+    #about-us p{
+        text-align: left;
+        line-height: 4vw;
+    }
+
+    #about-us img{
+        width: 45vw;
+        float: right;
+    }
+
+    #about-us article{
+        display: inherit;
+        margin: 4vw;
+    }
+
+    #about-us article .left{
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    #about-us h1{
+        font-size: 5vw;
+        margin: 0 auto;
+    }
+
+    #team-cards{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2vw;
+    }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+}

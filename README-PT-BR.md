@@ -6,7 +6,6 @@ Esta é a minha implementação pessoal para o desafio do curso da Nubank com a 
 
 - [Overview](#overview)
   - [Desafio](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [Processo](#my-process)
   - [Tecnologias Usadas](#built-with)
@@ -23,10 +22,6 @@ O desafio proposto consistia em criar uma página web com os seguintes component
 - Um carrossel exibindo uma seleção de produtos.
 - Cartões de produtos mostrando itens individuais.
 - Uma seção "Nosso Time" destacando os membros envolvidos no projeto.
-
-### Screenshot
-
-![](./screenshot.jpg)
 
 
 ### Links
